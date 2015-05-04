@@ -1,0 +1,36 @@
+name = Mutualite
+description =Site responsive 
+package = Core
+core = 7.x
+engine = phptemplate
+
+;CSS
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/content.css
+stylesheets[print][] = css/print.css
+
+screenshot = images/screenshot.png
+
+; AJOUTER DES SCRIPTS 
+scripts[]  = js/script.js
+scripts[]  = js/fonctions.js
+scripts[]  = js/responsive-nav.min.js
+
+; AJOUTER DES POSITIONS 
+regions[header] = HAUT DU SITE
+regions[help] = Aide
+regions[accueil] = PAGE D'ACCUEIL
+regions[content] = ZONE DE CONTENU
+regions[bas] = BAS DE CONTENU
+regions[sidebar_first] = ZONE DE GAUCHE
+regions[sidebar_second] = ZONE DE DROITE
+
+;COMPOSANTS
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu

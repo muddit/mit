@@ -1,0 +1,146 @@
+/* CSS content*/
+/* TEXTES */
+p, 
+.field-name-field-resume, 
+.field-name-field-suite-resume {line-height:22px;  margin: 5px 0 20px 0; font-size:14px;color:#231f20;
+}
+@media screen and (max-width: 768px) {/* VERSION MOBILE  /*/
+ body { font-size-adjust:none; font-size:16px; } 
+.field-name-field-resume, 
+.field-name-field-suite-resume {line-height:22px; font-size:16px; margin: 5px 0 20px 0; color:#231f20;
+}
+}
+
+strong, b {font-weight: bold;
+}
+em, i {font-style: italic; 
+}
+blockquote {font-style: italic;
+	padding-left:15px;
+}
+sup, sub {line-height: 0; 
+	font-size:10px;
+}
+abbr, acronym {border-bottom: 1px dotted #666666;
+}
+pre {margin: 15px 0;
+    white-space: pre;
+}
+pre, code, tt {font: 11px/1.5 'andale mono','lucida console',monospace;
+}
+/* LIENS */
+a {color: #547b80;    cursor: pointer;    text-decoration: none;
+}
+a:hover { color:#fbad18;
+}
+
+/* TITRES */
+h1, h2, h3, h4, h4, h6, titre { font-family: 'Open Sans', sans-serif;}
+h1 {color:#547b80;
+	font-size: 32px;
+    line-height: 30px;
+	margin: 0 0 30px 0; 
+	font-weight:300;
+	padding:0;
+	text-transform:uppercase;
+}
+h2 {font-size: 22px;
+	color:#000000;
+	font-weight:normal;
+	margin: 40px 0 20px 0;
+	background:url(../images/sous-titre-ca.png) no-repeat top left; background-size:50% 2px;
+    padding: 10px 0 0 0;
+	display:block;
+	width:auto;
+}
+h3 {font-size: 14px;
+	margin: 20px 0 10px 0;
+	text-transform:uppercase;
+	color:#547b80;
+	font-weight:300;
+}
+h4 {font-size: 12px;
+    font-weight: bold;
+	argin: 5px 0 10px 0; 
+	color:#000000;
+}
+h5 {font-size: 12px;
+    font-weight: bold;
+	margin: 5px 0 10px 0; 
+}
+h6 {font-size: 12px;
+    font-weight: bold;
+	margin: 5px 0 10px 0; 
+}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+    margin: 0;
+}
+ul {margin: 5px 0 10px 15px;
+    padding-left: 10px;
+	list-style: disc inside;
+}
+ol {list-style: inside decimal;
+   margin: 5px 0 10px 15px ;
+	padding-left: 10px;
+}
+	ul li, ol li {padding: 2px 0;
+	 line-height:18px;
+	 }
+	li ul, li ol {margin: 0;
+	}
+dl {margin: 0 0 15px;
+}
+dl dt {font-weight: bold;
+}
+dd {margin-left: 0;
+}
+
+hr {background-color: #000000;
+    border: 0 none;
+    clear: both;
+    color: #000000;
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* TABLEAUX */ 
+table {
+    margin: 10px auto 15px auto;
+    width: 100%;}
+tbody {
+	border:0;
+}
+table p {margin:0; padding:0;}
+thead p { color:#fff;}
+thead a { color:#000000;}
+thead a:hover {color:#FFFFFF;}
+td { border:0;}
+
+/* FORMULAIRES */
+input {border:1px solid #547b80; border-radius:5px; padding: 3px 5px; background:#FFF; font-weight:bold;}
+
+input[type="submit"] {margin-right:5px; color:#547b80}
+input[type="file"] { border:none 0;}
+
+input:hover, 
+input:focus {border-color:#fbad18;}
+input[type="submit"]:hover {color:#fbad18}
+
+
+
+/* CSS*/
+.gauche, .left {    float: left;}
+.droite, .right {    float: right;}
+img.gauche {
+    margin: 0 10px 0 0;
+}
+img.droite {
+    margin: 0 0 0 10px;
+    padding: 1px;
+}
+.hide {
+    display: none;
+}

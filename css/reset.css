@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size:100%; 
+	font-weight: inherit;
+	font-style: inherit;
+	font-family:inherit;
+}
+/* Remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+img {vertical-align:bottom;}  
+body {
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {/* Tables still need 'cellspacing="0"' in the markup. */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {/* Remove possible quote marks (") from <q>, <blockquote>. */
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+	
+}

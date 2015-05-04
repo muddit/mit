@@ -1,0 +1,31 @@
+@media print{
+	/* initialisation */
+	* { page-break-after: avoid;}	
+	body, html {
+		margin: 0; 
+		padding: 0;
+		font-size: 12px;
+		background:white;
+	}
+	#page, #page-wrapper, #contenant,#wrapper_contenant,  #center_content, .region_centrer {
+	/* Liste des éléments qui doivent être affiché au complet sur les pages */
+		padding:0;
+		margin:0;
+		overflow: visible;
+		width: auto!important;
+		height: auto;		
+		float: none;
+		background:white;
+	}
+	
+	/* Listes des éléments qui ne sont pas affichés */
+	#toolbar,#header, #footer, #sidebar_second, #sidebar_first {
+		display: none;
+	}
+	
+	/* Les hyperliens ne sont pas apprents dans le texte imprimé */
+	a {text-decoration: none; font-weight: normal; color: black;}
+	
+	/* si cette classe est appliquée l'élément ne s'imprimera pas */
+	.noprint {display: none;}
+}
