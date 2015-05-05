@@ -1,6 +1,6 @@
 <?php
 //Ajouter une css Reset dans le groupe systeme
-function mutualite_preprocess_html(&$vars) {
+function mit_preprocess_html(&$vars) {
 	drupal_add_css(drupal_get_path('theme', 'base') . '/css/reset.css', array('group' => CSS_SYSTEM, 'every_page' => TRUE));
 	
 	//ajouter google font

@@ -1,5 +1,5 @@
-name = Mutualite
-description =Site responsive 
+name = Theme HTML 5 pour mutualit
+description = Site responsive 
 package = Core
 core = 7.x
 engine = phptemplate
