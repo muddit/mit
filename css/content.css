@@ -45,15 +45,12 @@ body {background:#FFFFFF; height:100%; width:100%; font-size:12px; font-family:A
     /* --------------------ZONE SERVICE   */
     #block-views-services-block { clear:both; float:left; width:100%;}
     #block-views-services-block .content {margin:0 10px 30px 10px; }
-    #block-views-services-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:65% 1px;;}
-    #block-views-services-block .view-header h2 {margin-left: 19%; background:#FFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600; color:#547b80; text-transform:uppercase;}
+    
 
 /* --------------------ZONE ACCUEIL EQUIPE  */
 #block-views-equipe-block-1 { clear:both; float:left; width:100%; margin-bottom:30px;}
 #block-views-equipe-block-1 .content {margin:0 10px 30px 10px; }
 #block-views-equipe-block-1 .view-content { width:100%}
-#block-views-equipe-block-1 .view-header { background:url(../images/barre-titre.png) no-repeat center right;  background-size:65% 1px;;}
-#block-views-equipe-block-1 .view-header h2 {margin-left: 55%; background:#FFFFFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600;color:#547b80; text-transform:uppercase;}
 #block-views-equipe-block-1 .zone { float:left; position:relative;}
 #block-views-equipe-block-1 .zone .layer-txt { position:absolute; top:0; cursor:pointer;} 
 #block-views-equipe-block-1 .zone .layer-img {vertical-align: bottom; display: table-cell;  } 

@@ -50,12 +50,19 @@
     
       /* --------------------ZONE SERVICE   */  
   
+         #block-views-services-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:100% 1px; margin-left:10px;}
+     #block-views-services-block .view-header h2 {margin-left:30%; background:#FFFFFF; font-size:16px; display:block; width:35%; text-align:center; font-weight:600;color:#547b80; text-transform:uppercase;}
     #block-views-services-block .view-content .views-row {width:50%;  float: left; text-align: center; margin-bottom:55px;} 
     #block-views-services-block .view-content .layer-txt { display: none!important;}
      #block-views-services-block .view-content .layer-txt {display:none;} 
     #block-views-services-block .view-content .layer-img a:active img,  #block-views-services-block .view-content .layer-img a:hover img  { filter: alpha(opacity=50);	opacity: 0.5;}
  
 #block-views-equipe-block-1 .view-content p { padding: 0 30px 10px 30px;margin:0; font-size:14px; line-height:18px;}
+
+       /* --------------------Equipe */
+    
+    #block-views-equipe-block-1 .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:100% 1px; margin-left:10px;}
+    #block-views-equipe-block-1 .view-header h2 {margin-left:30%; background:#FFFFFF; font-size:16px; display:block; width:35%; text-align:center; font-weight:600;color:#547b80; text-transform:uppercase;}
 
 #block-views-equipe-block-1 .row { float:left; width:100%;}
 #block-views-equipe-block-1 .zone  { width:50%;}
@@ -66,11 +73,11 @@
  #block-views-equipe-block-1 .zone .layer-img  { width:50%;}
 
 a.lien-suite { display:none!important;}
-    A.lien-contenu { display: block; position: absolute; top:0;left: 0; width:100%; height: 100%;}
+    a.lien-contenu { display: block; position: absolute; top:0;left: 0; width:100%; height: 100%;}
     
-    #block-views-clients-block { display:none;}
+   
     
-    .group-droite { display:none;}
+ .group-droite { display:none;}
 .group-gauche { width:100%;}
     
     .nav-collapse, .nav-collapse ul {float:left;  width:100%; margin: 0 0 0 0;  padding: 0; }
@@ -83,9 +90,19 @@ a.lien-suite { display:none!important;}
 #bottom a.tel {float:left; width:29%; height:100%; text-indent:-99999px; background:#b8bf0d url(../images/mobile/phone.png) no-repeat center center; border-right:2px solid #FFF; background-size:20%}
 #bottom a.email { float:left;width:19%; height:100%;text-indent:-99999px; background:#fbad18 url(../images/mobile/email.png) no-repeat center center;border-right:2px solid #FFF;background-size:30%} 
 #bottom  .imgage{ float:left; width:50%; text-align:center;padding-top: 25px;}
+
+ /* --------------------ZONE  CLIENT */
+    #block-views-clients-block .view-display-id-block { background:none;}
+    #block-views-clients-block .view-content { margin-left:10px;}
+    #block-views-clients-block { clear:both; float:left; width:100%; margin-bottom:20px;}
+    #block-views-clients-block .view-content  div { display:inline-block; width:150px; text-align: center; padding-bottom:20px;}
+    #block-views-clients-block .view-content  div img { width:120px; height:auto;}
+    #block-views-clients-block .view-content  div.views-row-last {padding:0;}
+    #block-views-clients-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:100% 1px; margin-left:10px;}
+    #block-views-clients-block .view-header h2 {margin-left:30%; background:#FFFFFF; font-size:16px; display:block; width:35%; text-align:center; font-weight:600;color:#547b80; text-transform:uppercase;}
+    
+    
 }
-
-
 /*MOBILE - de 400px de long/*/
 @media screen and (min-width: 0) and (max-width: 490px) {
     #block-views-services-block .view-content .views-row {width:100%;}
@@ -93,4 +110,5 @@ a.lien-suite { display:none!important;}
     #block-views-equipe-block-1 .zone.id-19 { height: 280px;}
 #bottom a.tel {float:left; width:29%; height:100%; text-indent:-99999px; background:#b8bf0d url(../images/mobile/phone.png) no-repeat center center; border-right:2px solid #FFF; background-size:30%}
 #bottom a.email { float:left;width:19%; height:100%;text-indent:-99999px; background:#fbad18 url(../images/mobile/email.png) no-repeat center center;border-right:2px solid #FFF;background-size:45%} 
+
 }

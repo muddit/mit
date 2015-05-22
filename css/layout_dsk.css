@@ -59,7 +59,8 @@
 
 
     /* --------------------ZONE SERVICE   */
-   
+   #block-views-services-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:65% 1px;;}
+    #block-views-services-block .view-header h2 {margin-left: 19%; background:#FFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600; color:#547b80; text-transform:uppercase;}
     /*#block-views-services-block h3 { font-size:14px; font-weight:300; color:#FFFFFF; }*/
     #block-views-services-block .view-content .views-row {float:left; position:relative; display:block; height:220px;}
     #block-views-services-block .view-content .layer-img {width:100%; height:100%; text-align:center}
@@ -84,6 +85,8 @@
     .view-display-id-block  { background:url(../images/filigram_gris.png) no-repeat; background-position: 80% 92%;}
 
     /* --------------------Equipe */
+    #block-views-equipe-block-1 .view-header { background:url(../images/barre-titre.png) no-repeat center right;  background-size:65% 1px;;}
+    #block-views-equipe-block-1 .view-header h2 {margin-left: 55%; background:#FFFFFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600;color:#547b80; text-transform:uppercase;}
     #block-views-equipe-block-1 .row { float:left; width:33.33%;}
     #block-views-equipe-block-1 .row-1 { margin-top:-30px;}
     #block-views-equipe-block-1 .row-2 { margin-top:20px;}
@@ -96,6 +99,7 @@
     #block-views-equipe-block-1 .view-content .zone.id-19 .layer-txt { height:200px; width:100%;}
     #block-views-equipe-block-1 .view-content .zone.id-19 .lien-contenu { display:block;background: url(../images/suite.png) no-repeat bottom right; float:right; margin: -80px 5% 0 0; width:95%; cursor:pointer; height:120px; position:relative; z-index:3}
     /* --------------------ZONE  CLIENT */
+    
     #block-views-clients-block .view-display-id-block { background:none;}
     #block-views-clients-block .view-content { margin-left:10px;}
     #block-views-clients-block { clear:both; float:left; width:80%; margin-bottom:20px;}
