@@ -1,22 +1,9 @@
 /* CSS content*/
 
+body {background:#FFFFFF; height:100%; width:100%; font-size:12px; font-family:Arial, Helvetica, sans-serif;color:#231f20;}
 /* COMMONS */
 /* --------------------STRUCTURE DE BASE*/
-#top, #bottom,  #contenant  {width:100%; display:block; overflow:hidden;}  
-#top {background:#075056; top:0; position:fixed;  z-index:10}
-#header { padding-left:10px;}
-a.home { background:url(../images/mutualite.png); display:block; width:198px; height:58px; float:left; margin:5px 0;} 
-#wrapper_contenant { clear:both;}
-#contenant { position:relative;}
 
-#center_content  { width:100%; float:left;clear:both;}
-	.full #center_content { width:100%;}
-	.colldroite #center_content { width:100%; margin-bottom:130px;}
-	.collgauche #center_content {width:75%; margin-bottom:130px;}
-	.colldeux #center_content { width:50%; margin-bottom:130px;}
-.region_centrer { padding:0 10px;}
-#sidebar_first { float:left; width:25%; background:#FFFFFF;}
-#sidebar_second  { float:right; width:25%; background:#FFFFFF;}
 
 /* --------------------BANNIERES */
 .ban .wrap { z-index:1 ; width:100%; height:100%;}
@@ -55,18 +42,11 @@ a.home { background:url(../images/mutualite.png); display:block; width:198px; he
 
 .view-footer,.clear { clear:both;}
 
-/* --------------------ZONE SERVICE ACCUEIL  */
-#block-views-services-block { clear:both; float:left; width:100%;}
-#block-views-services-block .content {margin:0 10px 30px 10px; }
-#block-views-services-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:65% 1px;;}
-#block-views-services-block .view-header h2 {margin-left: 19%; background:#FFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600; color:#547b80; text-transform:uppercase;}
-/*#block-views-services-block h3 { font-size:14px; font-weight:300; color:#FFFFFF; }*/
-#block-views-services-block .view-content .views-row {float:left; position:relative; display:block; height:220px;}
-#block-views-services-block .view-content .layer-img {width:100%; height:100%; text-align:center}
-#block-views-services-block .view-content .layer-txt p { padding:5px 25px 0 25px; font-size:13px; line-height:18px; color:#FFF;}
-#block-views-services-block .view-content .layer-txt h3 { padding:15px 25px 0 25px; margin:0; font-weight:300; font-size:14px; color:#FFFFFF;}
-#block-views-services-block .view-content .layer-txt a.lien-plus { position:absolute; bottom:10px; right:20px; background:url(../images/suite.png) no-repeat right bottom; height:90%; width:90%;}
-
+    /* --------------------ZONE SERVICE   */
+    #block-views-services-block { clear:both; float:left; width:100%;}
+    #block-views-services-block .content {margin:0 10px 30px 10px; }
+    #block-views-services-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:65% 1px;;}
+    #block-views-services-block .view-header h2 {margin-left: 19%; background:#FFF; font-size:16px; display:block; width:25%; text-align:center; font-weight:600; color:#547b80; text-transform:uppercase;}
 
 /* --------------------ZONE ACCUEIL EQUIPE  */
 #block-views-equipe-block-1 { clear:both; float:left; width:100%; margin-bottom:30px;}
@@ -85,7 +65,7 @@ a.home { background:url(../images/mutualite.png); display:block; width:198px; he
 /*CA */
 #block-views-equipe-block-1 .view-content .zone.id-19 .layer-img, 
 #block-views-equipe-block-1 .view-content .zone.id-19 .lien-suite, #block-views-equipe-block-1 .view-content .zone.id-19 p { display:none;}
-#block-views-equipe-block-1 .view-content .zone.id-19 .lien-contenu { display:block;background: url(../images/suite.png) no-repeat bottom right; float:right; margin: -80px 5% 0 0; width:95%; cursor:pointer; height:120px; position:relative; z-index:3}
+
 #block-views-equipe-block-1 .view-content .zone.id-19 h3 { color:#0a5157; font-size:20px; font-weight:300; background:url(../images/sous-titre-ca.png) no-repeat bottom center; padding:50px 15% 20px 15%; text-align:center;}
 
 
@@ -116,12 +96,6 @@ ul.breadcrumbs li.first { display: inline; padding: 0;}
 p, 
 .field-name-field-resume, 
 .field-name-field-suite-resume {line-height:22px;  margin: 5px 0 20px 0; font-size:14px;color:#231f20;
-}
-@media screen and (max-width: 768px) {/* VERSION MOBILE  /*/
- body { font-size-adjust:none; font-size:16px; } 
-.field-name-field-resume, 
-.field-name-field-suite-resume {line-height:22px; font-size:16px; margin: 5px 0 20px 0; color:#231f20;
-}
 }
 
 strong, b {font-weight: bold;
