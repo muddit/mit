@@ -99,7 +99,7 @@
     #block-views-clients-block .view-display-id-block { background:none;}
     #block-views-clients-block .view-content { margin-left:10px;}
     #block-views-clients-block { clear:both; float:left; width:80%; margin-bottom:20px;}
-    #block-views-clients-block .view-content  div { display:inline-block; width:200px; padding-bottom:20px;}
+    #block-views-clients-block .view-content  div { display:inline-block; width:180px; padding-bottom:20px;}
     #block-views-clients-block .view-content  div img { width:120px; height:auto;}
     #block-views-clients-block .view-content  div.views-row-last {padding:0;}
     #block-views-clients-block .view-header { background:url(../images/barre-titre.png) no-repeat center left;  background-size:100% 1px; margin-left:10px;}
