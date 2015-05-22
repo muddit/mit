@@ -1,5 +1,14 @@
 /* -------------------Structure du theme-----------------------------
 --------------------------------------------------------------------- */
+/*Desktop /*/
+@media screen and (min-width: 960px) {
+}
+/*MOBILE /*/
+@media screen and (max-width: 959px){
+}
+
+
+
 
 /* --------------------STRUCTURE DE BASE*/
 #top, #bottom,  #contenant  {width:100%; display:block; overflow:hidden;}  

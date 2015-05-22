@@ -1,5 +1,5 @@
-name = Theme HTML 5 pour mutualit
-description = Site responsive 
+name = Mutualit 
+description = Theme HTML5 responsive pour Drupal 7
 package = Core
 core = 7.x
 engine = phptemplate
@@ -31,6 +31,5 @@ features[] = name
 features[] = slogan
 features[] = node_user_picture
 features[] = comment_user_picture
-features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
