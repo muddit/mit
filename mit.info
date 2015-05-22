@@ -5,7 +5,8 @@ core = 7.x
 engine = phptemplate
 
 ;CSS
-stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/layout_dsk.css
+stylesheets[all][] = css/layout_mob.css
 stylesheets[all][] = css/content.css
 stylesheets[print][] = css/print.css
 
